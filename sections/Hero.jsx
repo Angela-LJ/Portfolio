@@ -14,8 +14,9 @@ const Hero = () => (
       viewport={{once: false, amount: 0.25}}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="flex justify-center items-center flex-col relative z-10">
-        {/* <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+      {/* This is where there is an invis div and also where the title motion is */}
+      {/* <div className="flex justify-center items-center flex-col relative z-10">
+        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
           METAVERSE
         </motion.h1>
         <motion.div
@@ -25,8 +26,8 @@ const Hero = () => (
           <h1 className={styles.heroHeading}>MA</h1>
           <div className={styles.heroDText} />
           <h1 className={styles.heroHeading}>NESS</h1>
-        </motion.div> */}
-      </div>
+        </motion.div>
+      </div> */}
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className='relative w-full md:-mt-[20px] -mt-[12px]'
@@ -35,7 +36,7 @@ const Hero = () => (
           <img
             src="/desktop.webp"
             alt="cover"
-            className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+            className="w-full sm:h-[590px] h-[350px] object-cover z-10 relative"
           />
           <a href="#explore">
             <div className="w-full flex justify-end sm: -mt-[70px] -mt-[50px] pr-[40px] relative z-10">
