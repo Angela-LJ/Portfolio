@@ -15,7 +15,7 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+        {/* <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
           METAVERSE
         </motion.h1>
         <motion.div
@@ -25,15 +25,15 @@ const Hero = () => (
           <h1 className={styles.heroHeading}>MA</h1>
           <div className={styles.heroDText} />
           <h1 className={styles.heroHeading}>NESS</h1>
-        </motion.div>
+        </motion.div> */}
       </div>
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className='relative w-full md:-mt-[20px] -mt-[12px]'
       >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
+        {/* <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" /> */}
           <img
-            src="/cover.png"
+            src="/desktop.webp"
             alt="cover"
             className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
           />
